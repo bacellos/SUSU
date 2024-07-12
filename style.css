@@ -1,0 +1,600 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+svg {
+    height: 15px;
+    width: 10px;
+}
+
+#grid{
+    height: 5vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 1fr 1fr 1fr 1fr 1fr;
+    background-color: #f5f5f5;
+}
+
+.texto {
+    font-family: "Cairo" , sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.espacofoto {
+    display: flex;
+    gap: 1rem;
+}
+
+#grid_1 {
+    height: 50px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 100px 100px 100px 100px 100px;
+    background-color: #f5f5f5;
+}
+
+.cinza {
+height: 40vh;
+width: 100%;
+display: grid;
+grid-template-columns: 2fr 1fr 1fr 1fr;
+
+background-color: #f5f5f5;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: -15px;
+    margin-left: -15px;
+    font-family: "Cairo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+}
+
+
+#ogani {
+    width: 119px;
+    height: 50px;
+}
+#parte2{
+    height: 100vh;
+    background-color: white;
+}
+#parte3{
+   height: 60vh;
+   background-color: white;
+}
+#parte32{
+    height: 60vh;
+    background-color: rgb(255, 255, 255);
+    height: 60vh;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    /* gap: 2rem; */
+    width: 100%;
+    justify-content: space-around;
+    font-weight: bold;
+}
+#parte4{
+    height: 70vh;
+    background-color: white;
+}
+#final{
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+}
+
+#fonte{
+    font-weight: bold;
+    font-family: "Cairo", sans-serif;
+}
+#coluna3{
+    grid-column-start: 3;
+    margin-top: 30px;
+}
+#finalzin{
+    display: flex;
+    height: 251.19px;
+    width: 1170px;
+    justify-content: space-between;
+}
+.btn
+{
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 800;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 13px 30px 12px;
+    background: #7fad39;
+    border: none;
+}
+.ema{
+    width: 100%;
+    font-size: 16px;
+    padding-left: 20px;
+    color: #1c1c1c;
+    height: 46px;
+    border: 1px solid #ededed;
+}
+.form{
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+}
+#font{
+    font-weight: 700;
+    font-family: "Cairo", sans-serif;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    
+}
+#font::after{ content: "";
+position: absolute;
+width: 80px;
+height: 4px;
+background-color: #7fad39;
+top: 110%}
+#blog{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.containerIMahs {
+    display: flex;
+    flex-direction: column;
+
+}
+#marco{
+ color: gray;
+}
+svg{
+    color: gray;
+}
+.produtos{
+    font-size: 24px;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-around;
+}
+#botao{
+height: 30px;
+    width: 30px;
+    background: #F3F6FA;
+    border: 1px solid #e6e6e6;
+    font-size: 14px;
+    color: #636363;
+    margin-right: 10px;
+    line-height: 30px;
+    text-align: center;
+}
+#botaodireito{
+    height: 30px;
+    width: 30px;
+    background: #F3F6FA;
+    border: 1px solid #e6e6e6;
+    font-size: 14px;
+    color: #636363;
+    margin-right: 10px;
+    line-height: 30px;
+    text-align: center;
+}
+#format {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.formatar:hover {
+    background: #7fad39;
+}
+
+
+.formatar:hover path{
+    fill: #FFF;
+
+}
+#botoes{
+    display: flex;
+    justify-content: space-between;
+    width: 50px;
+}
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+svg{
+    height: 15px;
+    width: 10px;
+   
+}
+#grid{
+    height: 5vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 1fr 1fr 1fr 1fr  ;
+    background-color: #f5f5f5;
+    text-align: center;
+    align-items: center;
+}
+.texto{
+    font-family: "Cairo", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.espacofoto 
+{
+    display: flex;
+    gap: 1rem;
+}
+
+
+#grid1{
+    height: 5vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 1fr 1fr 1fr 1fr  ;
+    background-color: #f5f5f5;
+
+}
+
+#grid_1 div {
+    border:solid 1px black;
+}
+
+#linguagem
+{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.espaco1
+{
+    display: flex;
+    gap: 1rem;
+}
+#uss{
+    width: 14%,;
+    height: 27%;
+    text-align: center;
+}
+
+.p2{
+    width: 100%;
+    height: 90px;
+    display: grid;
+    display: flex;
+
+}
+.ogani{
+  grid-row: 1;
+  grid-column: 2;
+}
+#calango{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    
+}
+
+#drop{
+    list-style: none;
+    padding: 0;
+    position: absolute;
+    opacity: 0;
+    transition: 1s;
+    z-index: -2;
+ 
+    color:white
+
+}
+
+#drop li:hover
+    {
+        color: #7fad39;
+    }
+
+
+.Pages:hover #drop{
+    opacity: 1;
+    z-index: 2;
+background-color: black;;
+}
+
+
+.home{padding-left: 200px;
+    padding-top: 10px;
+}
+.shop{
+    padding-left: 40px;
+    padding-top: 10px;
+}
+#ogani2{
+    grid-column: 3/5;
+}
+.Pages{
+    padding-left: 40px;
+    padding-top: 10px;
+}
+.blog{
+    padding-left: 40px;
+    padding-top: 10px;
+}
+.contact{
+    padding-left: 40px;
+    padding-top: 10px;
+    
+}
+
+#calango{
+    display: grid;
+    grid-template-columns: 0.2fr 0.3fr 0.5fr 0.5fr 1fr 0.3fr .9fr 0.9fr;}
+
+.notfi{
+    width: 20%;
+    height: 20%;
+}
+
+#form{
+    text-decoration: none;
+    color: #7fad39;
+    font-family: "Cairo", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.linguagem:hover #dropp{
+    opacity: 1;
+    z-index: 2;}
+    #dropp{
+        list-style: none;
+        padding: 0;
+        position: absolute;
+        opacity: 0;
+        transition: 1s;
+        z-index: -2;
+        color: black;
+    }
+
+    main
+    {
+        display: grid; 
+        grid-template-columns: 1.5fr  1fr  1fr 1.5fr 1fr 1fr;
+        grid-template-rows: 50px 50px 400px 50px 200px;
+    }
+    #teste{
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+    }
+    #coracao{
+        width: 100%;
+    height: 100%;
+    display: flex;
+justify-content: space-around;
+align-items: center;
+    }
+
+    #papoula{
+        text-decoration: none;
+        color: #000000;
+        font-family: "Cairo", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+    }
+    #papoula:hover
+    {
+        color: #7fad39;
+    }
+
+    #verde{
+        transition: 1s;
+        text-decoration: none;
+        fill: #7fad39;
+        font-family: "Cairo", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+    }
+
+    .meio{
+        background-color: gray;
+        grid-column: 3/6;
+        grid-row: 3;
+    }
+ 
+    .opa
+    {
+        background-color: #7fad39;
+        grid-column: 2/3;
+        grid-row: 2;
+    }
+
+    .form {
+        display: flex;
+        flex-direction: row;
+        padding-top: 30px;
+    }
+    
+    
+    
+    .btn {
+        font-size: 14px;
+        color: #ffffff;
+        font-weight: 800;
+        text-transform: uppercase;
+        display: inline-block;
+        padding: 13px 30px 12px;
+        background: #7fad39;
+        border: none;
+    }
+    
+    
+    
+    .ema {
+        width: 100%;
+        font-size: 16px;
+        padding-left: 20px;
+        color: #1c1c1c;
+        height: 46px;
+        border: 1px solid #ededed;
+    }
+    
+    .search {
+        display: flex;
+        border: solid 1px #000;
+        justify-content: space-between;
+        width: 500px;
+    }
+
+    .combo {
+        padding: 10px;
+    }
+
+    .btn {
+        background-color: #7fad39;
+        color: #FFF;
+        font-weight: bold;
+    }
+
+    .search div input {
+        height: 100%;
+        font-size: 14px;
+        border: none;
+        background-color: transparent;
+    }
+    
+
+    svg {
+        height: 15px;
+        width: 10px;
+    }
+    
+    
+    
+    
+    .cinza {
+     height: 300px;
+     width: 100%;
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr 2fr;
+    
+     background-color: #f5f5f5;
+    
+        display: afel;
+        flex-wrap: wrap;
+        margin-right: -15px;
+        margin-left: -15px;
+       
+    
+        font-family: "Cairo", sans-serif;
+        font-optical-sizing: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       
+       
+    }
+    
+    #ogani {
+        width: 119px;
+        height: 50px;
+    }
+    
+    #cinza2 {
+        display: grid;
+        grid-column-start:3 ;
+    }
+    
+    
+    #fontN { font-family: "Cairo", sans-serif;
+    font-weight: bold;}
+    
+    #tamanhho {
+        height: 3px;
+    }
+    
+    #font{ font-family: "Cairo", sans-serif;}
+    
+    .btn {
+        font-size: 14px;
+        color: #ffffff;
+        font-weight: 800;
+        text-transform: uppercase;
+        display: inline-block;
+        padding: 13px 30px 12px;
+        background: #7fad39;
+        border: none;
+    }
+    
+    .ema {
+        width: 100%;
+        font-size: 16px;
+        padding-left: 20px;
+        color: #1c1c1c;
+        height: 46px;
+        border: 1px solid #ededed;
+    }
+    
+    .form {
+        display: flex;
+        flex-direction: row;
+        padding-top: 30px;
+    }
+    
+    .formatar {
+        height: 18px;
+        width: 18px;
+        background-color: #ffffff;
+        border-radius: 100%;
+        padding: 10px;
+        transition: 0.4s;
+        cursor: pointer;
+        border: solid 0.5px rgba(0,0,0,10%);
+    }
+    
+    #format {
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+    }
+    
+    .formatar:hover {
+        background: #7fad39;
+    }
+    
+    
+    .formatar:hover path{
+        fill: #FFF;
+    
+    }
+    
+    #pog {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        justify-content: space-between;
+        width: 60%;
+    }
+    
+    .cinza_baixo {
+    height: 80px;
+     width: 100%;
+     display: grid;
+     
+    
+     background-color: #f5f5f5;
+    }
+
